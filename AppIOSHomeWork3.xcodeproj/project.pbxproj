@@ -43,10 +43,9 @@
 		45AC2FEB205F628700ED824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45AC2FF0205F628700ED824A /* AppIOSHomeWork3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIOSHomeWork3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AC2FF4205F628700ED824A /* AppIOSHomeWork3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIOSHomeWork3Tests.swift; sourceTree = "<group>"; };
-		45AC2FF6205F628700ED824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45AC2FFB205F628700ED824A /* AppIOSHomeWork3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIOSHomeWork3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AC2FFF205F628700ED824A /* AppIOSHomeWork3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIOSHomeWork3UITests.swift; sourceTree = "<group>"; };
-		45AC3001205F628700ED824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45AC3001205F628700ED824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../AppIOSHomeWork3UITests/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				45AC2FF4205F628700ED824A /* AppIOSHomeWork3Tests.swift */,
-				45AC2FF6205F628700ED824A /* Info.plist */,
+				45AC3001205F628700ED824A /* Info.plist */,
 			);
 			path = AppIOSHomeWork3Tests;
 			sourceTree = "<group>";
@@ -120,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				45AC2FFF205F628700ED824A /* AppIOSHomeWork3UITests.swift */,
-				45AC3001205F628700ED824A /* Info.plist */,
 			);
 			path = AppIOSHomeWork3UITests;
 			sourceTree = "<group>";
